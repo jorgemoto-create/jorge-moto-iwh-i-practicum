@@ -14,7 +14,7 @@ const HUBSPOT_TOKEN = process.env.PRIVATE_APP_ACCESS_TOKEN;
 
 // Your custom object API name — found in HubSpot data model settings
 // Example: 'p_pets'  or  'p_plants'
-const OBJECT_TYPE = 'motos';
+const OBJECT_TYPE = 'p_motos';
 
 // Internal names of your three custom properties
 const PROPERTY_1 = 'name';           // Required — must be 'name'
