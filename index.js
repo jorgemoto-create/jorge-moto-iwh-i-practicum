@@ -94,3 +94,8 @@ app.post('/update-cobj', async (req, res) => {
     res.status(500).send('Error creating record — check your terminal.');
   }
 });
+
+
+app.listen(3000, () => {
+  console.log('Server running at http://localhost:3000 — open this in your browser');
+});
